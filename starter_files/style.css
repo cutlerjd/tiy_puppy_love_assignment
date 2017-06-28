@@ -15,12 +15,12 @@ colors:
 
 body {
   background-color: gray;
-  border: 1px solid yellow;
+  border: 1px solid #ffd24a;
   margin: 10px 100px;
-  font-family: sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-div {
+body > div {
   background-color: white;
 }
 
@@ -30,11 +30,11 @@ div section {
 }
 
 h2 {
-  color: blue;
+  color: #1fabe5;
 }
 
 h3 {
-  color: blue;
+  color: #1fabe5;
 }
 ul {
   font-weight: bold;
@@ -48,13 +48,13 @@ table{
   width: 100%;
 }
 td {
-  border: 1px solid black;
+  border: 1px solid #1fabe5;
   padding: 10px;
 }
 
 thead td {
-  background-color: teal;
-  border: 1px solid blue;
+  background-color: #1fabe5;
+  border: 1px solid #046c97;
   color: white;
 }
 
@@ -64,27 +64,21 @@ td img {
   display: block;
   margin: 0 auto;
 }
-div form {
+form {
   font-weight: bolder;
   padding: 10px;
-  background-color: beige;
+  background-color: #eee;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-
-form div {
-  font-weight: bolder;
-  padding: 10px;
-  background-color: beige;
 
 }
 
 .city_container {
   font-weight: bolder;
   padding: 10px;
-  background-color: inherit;
+
 }
 
 #bio div{
@@ -94,7 +88,7 @@ form div {
 .name {
   color: white;
   border-radius: 5px;
-  background-color: orange;
+  background-color: #ff8523;
   padding: 10px;
   margin: 10px;
 }
@@ -110,7 +104,7 @@ form div {
 
 #site_header {
   display: block;
-  background-color: orange;
+  background-color: #ff8523;
   padding: 30px;
 }
 
