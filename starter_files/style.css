@@ -12,3 +12,21 @@ colors:
     blue - #1fabe5
     dark blue - #046c97
 */
+
+body {
+  background-color: gray;
+  border: 1px solid orange;
+  margin: 10px 75px;
+  font-family: sans-serif;
+}
+
+div {
+  background-color: white;
+
+}
+
+header {
+  display: block;
+  background-color: orange;
+  padding: 30px;
+}
