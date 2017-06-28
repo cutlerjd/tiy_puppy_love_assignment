@@ -15,18 +15,53 @@ colors:
 
 body {
   background-color: gray;
-  border: 1px solid orange;
-  margin: 10px 75px;
+  border: 1px solid yellow;
+  margin: 10px 100px;
   font-family: sans-serif;
 }
 
 div {
   background-color: white;
-
 }
 
-header {
+div section {
+  border-bottom: 2px solid grey;
+}
+
+ul {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+li {
+  margin: 5px;
+}
+h2 {
+  color: blue;
+}
+
+h3 {
+  color: blue;
+}
+.main_navigation a {
+  display: inline-block;
+  text-decoration: none;
+  color:white;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px 15px;
+}
+
+#site_header {
   display: block;
   background-color: orange;
+  padding: 30px;
+}
+
+#logo {
+  display: block;
+  margin: 20px auto;
+}
+
+#page_content {
   padding: 30px;
 }
