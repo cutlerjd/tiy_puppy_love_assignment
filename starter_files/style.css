@@ -20,7 +20,7 @@ body {
   font-family: sans-serif;
 }
 
-div {
+body > div {
   background-color: white;
 }
 
@@ -64,7 +64,7 @@ td img {
   display: block;
   margin: 0 auto;
 }
-div form {
+form {
   font-weight: bolder;
   padding: 10px;
   background-color: beige;
@@ -72,9 +72,6 @@ div form {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-
-form div {
   font-weight: bolder;
   padding: 10px;
   background-color: beige;
@@ -84,12 +81,12 @@ form div {
 .city_container {
   font-weight: bolder;
   padding: 10px;
-  background-color: inherit;
+
 }
 
 #bio div{
   padding: 10px;
-  background-color: inherit;
+
 }
 .name {
   color: white;
