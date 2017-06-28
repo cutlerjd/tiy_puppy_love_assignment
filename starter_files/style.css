@@ -26,21 +26,43 @@ div {
 
 div section {
   border-bottom: 2px solid grey;
+  padding-bottom: 50px;
 }
 
-ul {
-  font-weight: bold;
-  margin-bottom: 50px;
-}
-li {
-  margin: 5px;
-}
 h2 {
   color: blue;
 }
 
 h3 {
   color: blue;
+}
+ul {
+  font-weight: bold;
+}
+li {
+  margin: 5px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+thead td {
+  background-color: teal;
+  border: 1px solid blue;
+  color: white;
+}
+
+td img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
 .main_navigation a {
   display: inline-block;
