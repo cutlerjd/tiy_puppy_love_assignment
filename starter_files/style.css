@@ -72,13 +72,11 @@ form {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-
 }
 
 .city_container {
   font-weight: bolder;
   padding: 10px;
-
 }
 
 #bio div{
@@ -101,7 +99,25 @@ form {
   padding: 10px 15px;
 }
 
+form div {
+  padding: 10px;
+}
 
+form textarea {
+  margin-top: 10px;
+  padding: 5px;
+  border-color: #1fabe5;
+}
+
+.submit_container > input {
+	border-radius : 10px;
+	font-size : 20px;
+  color: white;
+	background-color : #1fabe5;
+  border: 1px solid #1fabe5;
+	padding : 10px;
+  text-transform: uppercase;
+}
 #site_header {
   display: block;
   background-color: #ff8523;
